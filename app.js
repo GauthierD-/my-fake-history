@@ -36,7 +36,7 @@ app.use(function (err, req, res, next) {
 
   // add logout
 
-  // add login
+  // add login -> fix login
 
   // render the error page
   res.status(err.status || 500);
