@@ -32,17 +32,10 @@ app.use(function (err, req, res, next) {
   // set locals, only providing error in development
   res.locals.message = err.message;
   res.locals.error = req.app.get("env") === "development" ? err : {};
-  console.log('KILLER KILLER FEATURE KILLER KILLER');
-  console.log('NEXT BIG THING');
-
-  // add logout
-
-  // add login -> fix login
 
   // render the error page
   res.status(err.status || 500);
   res.render("error");
-  console.log('TINY TINY');
 });
 
 module.exports = app;
