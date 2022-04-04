@@ -26,8 +26,9 @@ var server = http.createServer(app);
  */
 
 server.listen(port, () => {
-  console.log('Server is running on port ' + port);
+  console.log('Server is running on port BUG BUG BUG' + port);
   console.log('----- add user page')
+  console.log('----- add user edit page')
 });
 server.on('error', onError);
 server.on('listening', onListening);
